@@ -1,0 +1,107 @@
+body{
+    font-family: 'Yanone Kaffeesatz';
+    background-image: url(/img/background-adare-restaurant.jpg);
+    color: #fff;
+    display: grid;
+    gap: 60px;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+p{
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+#logo{
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+/* Header style */
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+#navegacao{
+    display: flex;
+    gap: 30px; 
+    justify-content: center;
+    height: 40px;
+    width: 70%;
+    background-color: #33323e7c;
+    align-items: center;
+}
+
+.active:hover{
+    background-color: rgb(247, 191, 119);
+    padding: 5px 25px;
+    color: #33323e;
+}
+
+/* Main style */
+
+#info{
+    display: grid;
+    gap: 20px;
+}
+
+#titulo, p, a{
+    margin: auto;
+    text-align: center;
+}
+
+span{
+    color: rgb(247, 191, 119);
+}
+
+#reserva{
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+#reserva:hover{
+    background-color: rgb(247, 191, 119);
+    color: #33323e;
+    border: 0;
+}
+
+main p{
+   width: 50%;
+}
+
+#map{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+/* Footer style */
+
+footer{
+    background-color: #33323e7c;
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+}
+
+
